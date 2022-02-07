@@ -1,0 +1,2294 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T09:40:02.487Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T09:40:11.721Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:02:56.156Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:03:05.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:15:42.331Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:15:51.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:16:25.391Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:16:33.836Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:18:15.689Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:18:24.091Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:19:31.189Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:19:40.154Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:20:09.177Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:20:17.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:22:38.384Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:22:46.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:23:20.155Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:23:28.262Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:25:08.357Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:25:21.256Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:26:04.354Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:26:25.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:31:19.118Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:31:27.590Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:31:30.643Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:31:45.342Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:31:53.695Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:32:19.224Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:32:27.655Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 17:02:28 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":577015},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19038447,"external":20577057,"heapTotal":92532736,"heapUsed":69014440,"rss":125476864},"pid":24476,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T11:32:28.395Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 17:04:07 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":577114},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19038447,"external":20577057,"heapTotal":91746304,"heapUsed":68690416,"rss":126717952},"pid":29120,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T11:34:07.142Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:34:09.519Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:34:09.546Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:34:36.135Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:34:51.182Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:34:51.187Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:35:16.292Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:35:16.295Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:35:22.932Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 17:05:23 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":577191},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18995267,"external":20533877,"heapTotal":92008448,"heapUsed":68183984,"rss":127156224},"pid":15792,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T11:35:23.756Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 17:07:29 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":577317},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19038447,"external":20577057,"heapTotal":92270592,"heapUsed":68822152,"rss":127447040},"pid":19300,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T11:37:30.017Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 17:07:33 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":577321},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19025709,"external":20564319,"heapTotal":92008448,"heapUsed":68486992,"rss":127320064},"pid":3048,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T11:37:33.947Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 17:08:03 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":577350},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19038447,"external":20577057,"heapTotal":92270592,"heapUsed":68816640,"rss":126681088},"pid":23320,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T11:38:03.058Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:38:59.344Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 17:09:00 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":577407},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19038447,"external":20577057,"heapTotal":92270592,"heapUsed":69114856,"rss":127102976},"pid":24208,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T11:39:00.280Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:39:08.258Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:39:08.264Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:39:26.125Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:39:26.134Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:41:43.458Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:41:52.782Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:41:52.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:43:08.023Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:43:17.423Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:43:19.479Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:43:19.511Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:43:38.253Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:47:25.597Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:47:34.117Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:47:54.988Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:48:03.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:48:36.741Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:48:45.404Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:48:46.578Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:48:53.719Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:49:02.039Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T11:53:48.031Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T11:53:57.472Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/admin_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T11:57:14.531Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/admin_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T11:57:14.561Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T12:22:35.123Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:22:43.960Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T12:22:46.514Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:22:46.552Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T12:23:30.626Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T12:24:00.832Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:24:00.840Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T12:25:30.693Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:25:39.560Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T12:26:06.173Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:26:06.212Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T12:26:14.161Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T12:26:20.449Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:26:20.454Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T12:26:35.864Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T12:26:35.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T12:36:56.333Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:37:06.047Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T12:47:43.950Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:47:56.076Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T12:48:38.493Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:48:47.891Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T12:50:23.646Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T12:50:36.216Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T12:50:44.902Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 18:20:53 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":581720},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18463484,"external":20533150,"heapTotal":92270592,"heapUsed":47749984,"rss":125288448},"pid":27792,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T12:50:53.504Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 18:25:09 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":581977},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18356988,"external":20524958,"heapTotal":92270592,"heapUsed":47446616,"rss":125644800},"pid":10992,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T12:55:09.919Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 18:35:20 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":582588},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18748538,"external":20576330,"heapTotal":91484160,"heapUsed":50380672,"rss":124399616},"pid":23564,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T13:05:20.834Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 18:35:33 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":582600},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18701832,"external":20576330,"heapTotal":91746304,"heapUsed":50326232,"rss":124809216},"pid":29452,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T13:05:33.516Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 18:36:51 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":582678},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18748538,"external":20576330,"heapTotal":91746304,"heapUsed":50604288,"rss":124743680},"pid":28668,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T13:06:51.193Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\BookStore\BookStoreBackEnd\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Mon Feb 07 2022 18:39:20 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":582828},"process":{"argv":["node","C:\\BookStore\\BookStoreBackEnd\\src\\index.js"],"cwd":"C:\\BookStore\\BookStoreBackEnd","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18748538,"external":20576330,"heapTotal":91484160,"heapUsed":50476720,"rss":124887040},"pid":15864,"uid":null,"version":"v16.13.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-02-07T13:09:21.015Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\BookStore\\BookStoreBackEnd\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\BookStore\\BookStoreBackEnd\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T13:10:35.399Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T13:10:44.232Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:39:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T13:10:46.696Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T13:17:11.306Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T13:17:20.183Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:39:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T13:17:36.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T13:18:48.462Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T13:18:53.363Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T13:18:59.501Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T13:19:08.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T13:19:17.561Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T13:19:30.152Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T13:19:38.128Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:39:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T13:19:42.976Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:39:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T13:26:35.954Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'Password')
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:19:35)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T13:52:55.368Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T13:53:20.539Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T13:53:29.288Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'Password')
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:19:35)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T13:53:33.878Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T13:55:49.024Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T13:55:57.777Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T13:56:03.524Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T13:56:03.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T13:58:27.829Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T13:58:36.429Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T13:58:40.629Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T13:58:40.646Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T13:59:25.120Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T13:59:34.077Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T14:00:00.555Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T14:00:00.575Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:12:59.394Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T16:13:07.891Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T16:13:16.882Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T16:13:16.890Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/admin_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T16:13:46.988Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/admin_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T16:13:46.990Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/admin_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T16:17:12.257Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/admin_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T16:17:12.260Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/admin_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T16:17:24.421Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/admin_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T16:17:24.423Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/admin_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T16:17:29.482Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/admin_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T16:17:29.483Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/admin_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T16:17:47.727Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/admin_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T16:17:47.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:21:17.421Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T16:21:25.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:22:05.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:22:16.980Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:22:39.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:22:46.430Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:23:12.647Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:23:27.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:23:40.575Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T16:23:48.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:24:31.005Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T16:24:39.020Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:33:17.250Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:41:09.352Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T16:41:17.667Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T16:41:18.838Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T16:41:18.853Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user_registration 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T16:41:22.936Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user_registration 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T16:41:22.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:48:52.579Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:48:58.384Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T16:49:06.513Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T16:49:43.647Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T16:49:43.660Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T16:51:16.766Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T16:51:16.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T16:58:51.968Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T16:59:00.332Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:37:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:02:36.148Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:02:52.839Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:03:01.030Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:37:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:03:05.175Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:37:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:06:38.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:09:33.515Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:09:42.163Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:09:54.480Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:10:02.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:13:08.604Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:13:16.999Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:13:19.180Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:13:19.188Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:37:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:13:27.394Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:14:07.419Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:14:07.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:14:27.396Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:14:35.783Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:14:36.927Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:16:29.352Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:16:29.367Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:16:52.540Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:16:52.542Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:17:00.062Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:17:00.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:35:58.628Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:36:06.890Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:39:46.159Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:39:54.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:40:32.125Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:40:40.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:42:01.327Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:42:09.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:43:11.536Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:43:19.727Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:43:30.546Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:43:38.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:44:09.000Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:44:17.044Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:44:24.048Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:44:24.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:44:41.402Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:44:49.537Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:44:52.402Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:44:52.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:45:15.804Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:45:23.916Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:45:28.114Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:45:28.124Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:46:16.662Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:46:16.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:47:37.996Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:47:46.132Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:47:48.281Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:47:48.292Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:48:15.027Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:48:15.029Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:50:51.681Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:50:59.920Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:51:01.870Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:51:01.884Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:51:05.657Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:51:05.660Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T17:51:14.437Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:51:14.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:53:35.625Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:53:44.099Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:54:09.327Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:54:17.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:54:49.351Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:54:57.704Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:55:42.495Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:55:50.589Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:36:9)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:56:12.997Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T17:58:26.356Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T17:58:34.502Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:38:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T17:58:37.447Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:02:04.176Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T18:02:04.181Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:02:51.965Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T18:02:51.968Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/admin 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:03:22.095Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T18:03:22.097Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/admin 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:03:42.636Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T18:03:42.638Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/admin 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:05:25.692Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:38:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T18:05:46.826Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:06:40.661Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T18:06:48.885Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'Password')
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:36:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T18:06:51.934Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:09:30.335Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T18:09:30.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:09:48.752Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T18:09:56.983Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:10:08.138Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T18:10:08.147Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/admin 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:10:36.163Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T18:10:36.165Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:11:51.131Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/admin 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:12:22.525Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T18:12:22.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:14:18.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:14:25.873Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T18:14:34.094Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:38:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T18:14:34.758Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\BookStore\BookStoreBackEnd\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\src\services\/user.service.js:38:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/user_login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-07T18:14:39.669Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:14:53.265Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:15:00.587Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/admin 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:15:16.505Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/admin 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:15:29.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:19:49.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:20:14.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:20:19.262Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:20:37.425Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:20:44.817Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:20:53.323Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T18:21:01.180Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:21:17.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:21:22.468Z"}
+info: Connected to the database. {"timestamp":"2022-02-07T18:21:30.701Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:23:20.418Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:23:29.152Z"}
+error: 
+      status - 404
+      message - user already exsist 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-07T18:23:45.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-07T18:24:14.831Z"}
