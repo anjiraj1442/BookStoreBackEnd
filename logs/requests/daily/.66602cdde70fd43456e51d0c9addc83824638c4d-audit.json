@@ -14,6 +14,11 @@
             "date": 1644260082775,
             "name": "logs\\requests\\daily\\2022-02-08.log",
             "hash": "205655b9a8dfd454b3aeca45f5674fea"
+        },
+        {
+            "date": 1644432626480,
+            "name": "logs\\requests\\daily\\2022-02-10.log",
+            "hash": "a7bab03fcd0d421b708592416d7cd3d1"
         }
     ],
     "hashType": "md5"
