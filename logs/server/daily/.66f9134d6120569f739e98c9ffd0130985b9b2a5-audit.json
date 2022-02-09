@@ -16,9 +16,20 @@
             "hash": "9a0e2dbd15a3a9f6ad03d2c983b5fbcc"
         },
         {
+<<<<<<< HEAD
             "date": 1644432626468,
             "name": "logs\\server\\daily\\2022-02-10.log",
             "hash": "b09bbbb9e024cb5a84a7dee20efb5d70"
+=======
+            "date": 1644371329267,
+            "name": "logs\\server\\daily\\2022-02-09.log",
+            "hash": "f9b48a9d68572a274129bb13f4b761db"
+        },
+        {
+            "date": 1644431996407,
+            "name": "logs\\server\\daily\\2022-02-10.log",
+            "hash": "7af3dab5a341c97b5893e605f6360a41"
+>>>>>>> UC3-Cart
         }
     ],
     "hashType": "md5"

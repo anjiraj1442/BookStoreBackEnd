@@ -880,3 +880,927 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-08T0
 info: Connected to the database. {"timestamp":"2022-02-08T05:30:32.026Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-08T05:39:50.238Z"}
 info: Connected to the database. {"timestamp":"2022-02-08T05:39:58.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-08T05:50:27.973Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T05:50:36.522Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-08T07:08:22.761Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:08:31.075Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:10:59.054Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:10:59.085Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:11:17.935Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:11:17.939Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:11:34.718Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:11:34.723Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:11:44.718Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:11:44.722Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-08T07:13:43.970Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:13:52.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-08T07:14:49.053Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-08T07:15:04.417Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:15:12.765Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-08T07:16:56.795Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:17:09.394Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:17:22.025Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:17:22.039Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:17:46.997Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:17:47.000Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-08T07:19:43.557Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:19:51.823Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-02-08T07:21:02.071Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:21:10.778Z"}
+info: Server started at http://localhost:3002/api/v1/ {"timestamp":"2022-02-08T07:23:46.225Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:23:54.530Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:24:05.476Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:24:05.478Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:24:32.270Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:24:32.272Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:24:33.841Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:24:33.843Z"}
+info: Server started at http://localhost:3002/api/v1/ {"timestamp":"2022-02-08T07:25:20.972Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:25:23.923Z"}
+info: Server started at http://localhost:3002/api/v1/ {"timestamp":"2022-02-08T07:25:33.544Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:25:41.568Z"}
+info: Server started at http://localhost:3002/api/v1/ {"timestamp":"2022-02-08T07:26:42.827Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:26:51.134Z"}
+info: Server started at http://localhost:3002/api/v1/ {"timestamp":"2022-02-08T07:27:19.434Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:27:27.528Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:27:38.742Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:27:38.744Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:27:41.135Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:27:41.137Z"}
+info: Server started at http://localhost:3002/api/v1/ {"timestamp":"2022-02-08T07:28:19.510Z"}
+info: Server started at http://localhost:3002/api/v1/ {"timestamp":"2022-02-08T07:28:24.153Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:28:32.360Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:29:16.466Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:29:16.468Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:30:28.024Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:30:28.026Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:31:07.398Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:31:07.408Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T07:31:57.640Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\BookStore\BookStoreBackEnd\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\BookStore\BookStoreBackEnd\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:321:13)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:275:10)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:641:15
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T07:31:57.641Z"}
+info: Server started at http://localhost:3005/api/v1/ {"timestamp":"2022-02-08T07:38:50.313Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T07:38:58.626Z"}
+error: 
+    status - 500 
+    message - ValidationError: "bookName" with value "newbook12" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T08:21:21.372Z"}
+error: 
+    status - 500 
+    message - ValidationError: "bookName" with value "newbook12" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T08:21:30.929Z"}
+info: Server started at http://localhost:3005/api/v1/ {"timestamp":"2022-02-08T11:34:03.119Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:34:12.382Z"}
+info: Server started at http://localhost:3005/api/v1/ {"timestamp":"2022-02-08T11:38:22.605Z"}
+info: Server started at http://localhost:3005/api/v1/ {"timestamp":"2022-02-08T11:38:34.574Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:38:43.494Z"}
+info: Server started at http://localhost:3005/api/v1/ {"timestamp":"2022-02-08T11:39:07.893Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:39:16.746Z"}
+info: Server started at http://localhost:3005/api/v1/ {"timestamp":"2022-02-08T11:40:29.390Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:40:38.307Z"}
+info: Server started at http://localhost:3005/api/v1/ {"timestamp":"2022-02-08T11:41:06.292Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:41:14.512Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T11:42:22.559Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:42:31.279Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/book/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T11:42:32.917Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:25:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T11:43:40.104Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T11:48:40.467Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:48:48.920Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:25:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T11:48:52.814Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T11:56:20.558Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:56:29.434Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:25:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T11:57:13.608Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T11:58:42.429Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T11:59:06.364Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:59:14.850Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T11:59:37.146Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T11:59:45.979Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Role is not defined
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:27:7)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T12:00:02.192Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:00:56.729Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:01:10.038Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:01:18.980Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T12:01:29.537Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:02:04.070Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:02:12.750Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:03:34.761Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:03:45.987Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:03:55.113Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:25:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T12:06:29.332Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:25:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T12:06:51.669Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:09:26.195Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:09:35.142Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:25:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T12:09:40.262Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:13:56.883Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:14:05.181Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:15:51.508Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:15:59.842Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:25:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T12:21:19.142Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:22:18.777Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:22:27.328Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:25:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T12:22:30.038Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:23:51.929Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:24:00.420Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T12:24:02.688Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:30:59.223Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:31:07.683Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:32:04.875Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:32:22.626Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:32:31.280Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:35:56.745Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:36:05.265Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T12:36:08.499Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/book/addbook 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-08T12:43:30.706Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T12:44:19.000Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:45:25.041Z"}
+info: Server started at http://localhost:3006/api/v1/ {"timestamp":"2022-02-08T12:45:44.208Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:45:52.844Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T12:46:38.858Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:46:47.119Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T12:46:47.852Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T12:49:21.090Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:49:29.745Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:26:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:14:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T12:52:54.790Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T12:54:26.649Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T12:54:35.290Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T13:06:32.941Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T13:07:04.685Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T13:07:14.246Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T13:07:41.823Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T13:08:19.889Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T13:09:31.071Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T13:09:40.586Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T13:10:18.718Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T13:10:27.787Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T13:11:17.471Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T13:12:07.617Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T13:12:32.119Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T13:12:58.982Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T13:13:21.344Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T13:13:30.552Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-08T16:26:59.778Z"}
+info: Connected to the database. {"timestamp":"2022-02-08T16:27:11.337Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:28:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:15:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-08T16:27:37.112Z"}

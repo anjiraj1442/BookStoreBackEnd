@@ -4,29 +4,28 @@ const userSchema = new Schema(
   {
     FirstName: {
       type: String,
-      trim:true
+      trim: true
     },
     LastName: {
       type: String,
-      trim:true
+      trim: true
     },
     Email: {
       type: String,
-      require:true,
-       
-      trim:true
+      require: true,
+
+      trim: true
     },
     Password: {
       type: String,
-      require:true,
-     
-      trim:true
+      require: true,
+
+      trim: true
     },
-    Role:{
-      type:String,
-      trim:true
- 
-     }
+    Role: {
+      type: String,
+      trim: true
+    }
   },
   {
     timestamps: true
