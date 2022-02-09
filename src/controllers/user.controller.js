@@ -9,6 +9,7 @@ import * as UserService from '../services/user.service';
  */
 export const newUser = async (req, res, next) => {
   try {
+    console.log("hsh",req.body);
     const data = await UserService.newUser(req.body);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
@@ -16,6 +17,7 @@ export const newUser = async (req, res, next) => {
       message: 'User created successfully'
     });
   } catch (error) {
+    console.log("1123",error);
     next(error);
   }
 };

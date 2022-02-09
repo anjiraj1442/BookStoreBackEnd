@@ -5,9 +5,11 @@ import * as validataor from '../validators/user.validator'
 
 
 const router = express.Router();
+
 // route to add book
-router.post('/addbook', validataor.bookValidatorn, bookController.newBook)
+router.post('/addbook',  validataor.bookValidatorn, bookController.newBook)
 
 //route to add book
 router.get('/getbook', bookController.getBooks);
+
 export default router;

@@ -1,0 +1,253 @@
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-09T01:48:49.389Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T01:48:57.816Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-09T01:49:42.184Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T01:49:50.964Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-09T02:21:32.967Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T02:21:41.636Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:28:37)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:15:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-09T02:24:05.394Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-09T02:27:35.670Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T02:27:44.542Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:51:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:42:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-09T02:27:55.460Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:51:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:42:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-09T02:27:57.101Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:51:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:42:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-09T02:27:58.436Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:51:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at C:\BookStore\BookStoreBackEnd\src\middlewares\/auth.middleware.js:42:3
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-09T02:29:10.022Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-09T02:31:08.784Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T02:31:17.935Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-09T05:01:51.881Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-09T05:01:58.472Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:02:07.023Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-09T05:02:27.336Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-09T05:02:36.928Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:02:45.271Z"}
+info: Server started at http://localhost:3007/api/v1/ {"timestamp":"2022-02-09T05:06:30.350Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:06:38.700Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:09:49.708Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:09:58.051Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:11:51.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:12:02.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:12:10.855Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:12:19.172Z"}
+error: 
+    status - 500 
+    message - ValidationError: "bookName" length must be less than or equal to 20 characters long 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-09T05:13:53.468Z"}
+error: 
+    status - 500 
+    message - ValidationError: "bookName" length must be less than or equal to 20 characters long 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-09T05:14:01.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:15:14.354Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:15:20.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:15:30.418Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:15:39.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:20:21.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:20:27.213Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:20:35.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:23:02.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:23:07.110Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:23:15.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:24:05.220Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:24:13.718Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:24:25.098Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:24:33.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:24:39.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:24:44.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:24:49.796Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:24:57.879Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:25:16.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:25:21.733Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:25:30.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:25:36.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:25:48.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:25:57.719Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:26:04.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:26:17.499Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:26:25.882Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:31:17.111Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:31:25.683Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:31:33.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:31:44.908Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:31:53.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:32:07.080Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:32:33.005Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:32:41.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:32:47.136Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:32:55.637Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:33:26.803Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:33:34.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:33:52.466Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T05:34:04.155Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T05:34:12.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T06:20:20.183Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T06:20:35.383Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T06:20:44.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T11:24:03.535Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T11:24:12.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T11:31:26.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T11:31:57.204Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T11:32:10.066Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T11:40:59.322Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T11:41:23.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T11:41:39.727Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T11:41:50.128Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T11:41:58.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T11:42:53.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T11:43:41.886Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T11:43:51.717Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T11:44:20.926Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T11:44:29.193Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T12:32:45.007Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T12:32:54.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T12:36:34.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T12:37:40.214Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T12:37:48.746Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addressType" with value "home near" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/address/address 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-09T12:37:50.763Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullAddress" with value "near office" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/address/address 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-09T12:38:09.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T12:38:58.120Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T12:39:06.679Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T12:40:32.230Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T12:40:42.032Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T12:53:49.016Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T12:53:57.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T12:58:28.176Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T13:03:15.758Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T13:03:24.144Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T16:37:03.002Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T16:37:11.577Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T17:32:17.971Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T17:32:26.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T17:36:26.715Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T17:36:35.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T17:42:57.333Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T17:43:05.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T17:45:46.250Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T17:45:54.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-09T17:52:36.812Z"}
+info: Connected to the database. {"timestamp":"2022-02-09T17:52:45.297Z"}

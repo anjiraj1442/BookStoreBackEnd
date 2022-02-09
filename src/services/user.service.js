@@ -6,9 +6,11 @@ import dotenv from 'dotenv';
 dotenv.config('../.env')
 //create new user
 export const newUser = async (body) => {
+  console.log("aghsghd",body);
   const HashedPassword = await bcrypt.hash(body.Password, 10);
   body.Password = HashedPassword;
   const data = await User.create(body);
+  console.log("anji",data);
   return data;
 };
 
@@ -20,7 +22,9 @@ export const login = async (body) => {
     const match = await bcrypt.compare(body.Password, check.Password);
     if (match) {
       const token = jwt.sign({ Email: check.Email, id: check._id, Role: check.Role }, 'tokenvalue', { expiresIn: '98h' });
+     
       return token;
+      
     } else {
       return 'Incorrect Password'
     }

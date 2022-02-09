@@ -104,3 +104,93 @@ info: ::ffff:127.0.0.1 - - [08/Feb/2022:05:39:59 +0000] "GET /api/v1/book/getboo
 
 info: ::ffff:127.0.0.1 - - [08/Feb/2022:05:41:24 +0000] "GET /api/v1/book/getbook HTTP/1.1" 200 2597 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:10:59 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:11:17 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:11:34 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:11:44 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:17:22 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:17:47 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:24:05 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:24:32 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:24:33 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:27:38 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:27:41 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:29:16 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:30:28 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:31:07 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:31:57 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:39:01 +0000] "POST /api/v1/users/user HTTP/1.1" 201 339 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:39:53 +0000] "POST /api/v1/users/admin HTTP/1.1" 201 344 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:55:38 +0000] "POST /api/v1/users/user-login HTTP/1.1" 200 285 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:07:55:59 +0000] "POST /api/v1/users/admin-login HTTP/1.1" 200 289 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:08:21:21 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 124 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:08:21:30 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 124 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:08:21:44 +0000] "POST /api/v1/book/addbook HTTP/1.1" 201 326 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:08:22:06 +0000] "POST /api/v1/book/addbook HTTP/1.1" 200 219 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:08:22:27 +0000] "POST /api/v1/book/addbook HTTP/1.1" 201 331 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:08:22:40 +0000] "GET /api/v1/book/getbook HTTP/1.1" 200 3136 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:11:34:38 +0000] "POST /api/v1/book/addbook HTTP/1.1" 201 334 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:11:42:32 +0000] "POST /api/v1/book/addbook HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:11:43:40 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:11:48:52 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:11:57:13 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:00:02 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:01:29 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:06:29 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:06:51 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:09:40 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:21:19 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:22:30 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:24:02 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:36:08 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:43:30 +0000] "POST /api/v1/book/addbook HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:44:19 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:46:47 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:12:52:54 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:16:27:37 +0000] "POST /api/v1/book/addbook HTTP/1.1" 500 55 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [08/Feb/2022:16:28:00 +0000] "GET /api/v1/book/getbook HTTP/1.1" 200 3411 "-" "Thunder Client (https://www.thunderclient.com)"
+
