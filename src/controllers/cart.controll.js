@@ -13,6 +13,8 @@ export const addCart = async (req, res, next) => {
   } catch (error) {
     next(error);
   }
+
+  // not an issue. pass th cart values not understang mam
 };
 
 //get cart items
@@ -25,6 +27,7 @@ export const addCart = async (req, res, next) => {
 export const getCart = async (req, res, next) => {
   try {
     const data = await cartService.getCart(req);
+    console.log(data, 'ggg');
     res.status(data.status).json(data);
   } catch (error) {
     next(error);

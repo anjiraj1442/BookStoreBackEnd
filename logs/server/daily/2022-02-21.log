@@ -1,0 +1,73 @@
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-21T02:24:07.645Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T02:24:17.169Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/cart/62022818dfaccf0cb4ccc3d1 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T02:28:24.352Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T03:25:55.559Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T03:26:21.775Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-21T04:55:40.051Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T04:55:48.851Z"}

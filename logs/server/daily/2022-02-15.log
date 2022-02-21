@@ -1,0 +1,96 @@
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-15T03:08:07.901Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T03:08:16.344Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '620a3ed1dd6ff905b8774a0f', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/620a3ed1dd6ff905b8774a0f 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T03:35:21.725Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-15T03:42:27.125Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T03:42:35.559Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-15T04:49:21.790Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T04:49:30.531Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-15T11:19:12.142Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T11:19:20.449Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-15T12:08:59.265Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T12:09:07.938Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:20:59.224Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-15T13:21:36.282Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T13:21:44.804Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:21:59.727Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:23:23.422Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-15T13:24:59.219Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T13:25:08.644Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a valid email 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:25:18.180Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a valid email 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:26:15.078Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-15T13:26:41.512Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T13:26:50.432Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a valid email 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:26:51.691Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a valid email 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:27:26.117Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a valid email 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:27:32.336Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a valid email 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:30:21.099Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-15T13:30:39.004Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T13:30:47.896Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-15T16:23:49.064Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T16:23:58.027Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-15T17:35:48.139Z"}
+info: Connected to the database. {"timestamp":"2022-02-15T17:35:57.856Z"}

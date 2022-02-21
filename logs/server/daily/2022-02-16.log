@@ -1,0 +1,850 @@
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-16T01:46:04.797Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T01:46:13.577Z"}
+error: 
+    status - 500 
+    message - ValidationError: "bookName" with value "mern stack" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-16T07:53:21.528Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-16T08:13:27.064Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T08:13:35.310Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T08:38:33.947Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T08:40:09.685Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T08:41:49.815Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T08:53:28.950Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T08:53:48.480Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:00:31.960Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:00:41.956Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:00:43.943Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:00:47.972Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:01:46.522Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:01:46.588Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:01:49.508Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:02:04.864Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:03:53.194Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:04:39.950Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:04:51.940Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:04:54.947Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:04:57.953Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:06:33.945Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:06:40.563Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:08:00.953Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:10:30.954Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/getcartbooks 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-16T09:10:35.947Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/getcartbooks 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-16T09:10:51.986Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:11:19.769Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:11:50.446Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:20:31.538Z"}
+error: 
+    status - 500 
+    message - ValidationError: "bookName" length must be less than or equal to 20 characters long 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-16T09:39:52.877Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:43:23.469Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-16T10:34:46.565Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T10:34:54.977Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T10:35:49.388Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T10:41:11.047Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:18:07.078Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:47:35.590Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:50:21.128Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:51:09.411Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:56:31.243Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-16T12:30:31.701Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T12:30:40.233Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\cart.service.js:212:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-16T12:33:32.554Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\cart.service.js:212:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T12:35:46.753Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\cart.service.js:212:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-16T12:41:23.749Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-16T12:41:52.168Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T12:42:01.907Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-16T12:43:22.054Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T12:43:30.454Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-16T14:24:16.502Z"}
+info: Connected to the database. {"timestamp":"2022-02-16T14:24:24.803Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/wishlist 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-16T18:08:20.924Z"}

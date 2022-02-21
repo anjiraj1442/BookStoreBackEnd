@@ -1,27 +1,28 @@
 import express from 'express';
-
-
+import bookRoute from './book.route';
 import userRoute from './user.route';
-import bookRoute from './book.route'
-import customerRoute from './customer.route'
-import orderRoute from './order.route'
-// import userRoute from './user.route';
+import cartRoute from './cart.route';
+import customerRoute from './customer.route';
+import orderRoute from './order.route';
+import wishlistRoute from "./wishlist.route"
+
 const router = express.Router();
+
 /**
  * Function contains Application routes
  *
  * @returns router
  */
 const routes = () => {
-  router.get('/', (req, res) => {
-    res.json('Welcome');
-  });
-  router.use('/users', userRoute);
+  // router.get('/', (req, res) => {
+  //   res.json('Welcome To Bookstore Application');
+  // });
   router.use('/book', bookRoute);
-  router.use('/address', customerRoute)
-  router.use('/order', orderRoute)
-  // router.use('/cart', cartRoute);
-
+  router.use('/user', userRoute);
+  router.use('/cart', cartRoute);
+  router.use('/wishlist', wishlistRoute);
+  router.use('/customer', customerRoute);
+  router.use('/order', orderRoute);
 
   return router;
 };

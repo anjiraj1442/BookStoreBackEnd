@@ -7,8 +7,8 @@ dotenv.config('../.env')
 //create new user
 export const newUser = async (body) => {
   console.log("aghsghd",body);
-  const HashedPassword = await bcrypt.hash(body.Password, 10);
-  body.Password = HashedPassword;
+  const HashedPassword = await bcrypt.hash(body.password, 10);
+  body.password = HashedPassword;
   const data = await User.create(body);
   console.log("anji",data);
   return data;
@@ -17,11 +17,11 @@ export const newUser = async (body) => {
 // login in service file
 
 export const login = async (body) => {
-  const check = await User.findOne({ Email: body.Email });
+  const check = await User.findOne({ email: body.email });
   if (check) {
-    const match = await bcrypt.compare(body.Password, check.Password);
+    const match = await bcrypt.compare(body.password, check.password);
     if (match) {
-      const token = jwt.sign({ Email: check.Email, id: check._id, Role: check.Role }, 'tokenvalue', { expiresIn: '98h' });
+      const token = jwt.sign({ email: check.email, id: check._id}, 'tokenvalue', { expiresIn: '98h' });
      
       return token;
       

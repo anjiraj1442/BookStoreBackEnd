@@ -5892,3 +5892,1910 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-09T18:44:06.383Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/wishlist/6209dd832da7b8141c05f8b8 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:43:23.204Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/wishlist/6209dd832da7b8141c05f8b8 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:44:01.657Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/wishlist/6209dd832da7b8141c05f8b8 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T04:48:17.674Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/wishlist/6209dd832da7b8141c05f8b8 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-14T05:49:35.793Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/cart/6209bd8e2da7b8141c05f8b1 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T11:37:08.085Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\services\cart.service.js:34:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addCart (C:\BookStore\BookStoreBackEnd\build\services\cart.service.js:182:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\controllers\cart.controll.js:37:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/cart/cart/6209bd8e2da7b8141c05f8b1 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T11:38:39.117Z"}
+error: 
+    status - 500 
+    message - MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/
+    at Function.Model.$wrapCallback (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\model.js:5087:32)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4510:21
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4509:10)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/6209bd8e2da7b8141c05f8b1 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T12:31:36.067Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '620a4d201336f745989480d6', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/620a4d201336f745989480d6 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T14:47:34.885Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '61fb5932ff3240435ceb506c', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/61fb5932ff3240435ceb506c 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-14T15:16:05.954Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '620a3ed1dd6ff905b8774a0f', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/620a3ed1dd6ff905b8774a0f 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T03:35:21.725Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:20:59.224Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:21:59.727Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:23:23.422Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a valid email 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:25:18.180Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a valid email 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:26:15.078Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a valid email 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:26:51.691Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a valid email 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:27:26.117Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a valid email 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:27:32.336Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must be a valid email 
+    url - /api/v1/user/signup 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-15T13:30:21.099Z"}
+error: 
+    status - 500 
+    message - ValidationError: "bookName" with value "mern stack" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-16T07:53:21.528Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T08:38:33.947Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T08:40:09.685Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T08:41:49.815Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T08:53:28.950Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T08:53:48.480Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:00:31.960Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:00:41.956Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:00:43.943Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:00:47.972Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:01:46.522Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:01:46.588Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:01:49.508Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:02:04.864Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:03:53.194Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:04:39.950Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:04:51.940Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:04:54.947Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:04:57.953Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:06:33.945Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:06:40.563Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:08:00.953Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:10:30.954Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/getcartbooks 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-16T09:10:35.947Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/getcartbooks 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-16T09:10:51.986Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:11:19.769Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:11:50.446Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:20:31.538Z"}
+error: 
+    status - 500 
+    message - ValidationError: "bookName" length must be less than or equal to 20 characters long 
+    url - /api/v1/book/addbook 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-16T09:39:52.877Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T09:43:23.469Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T10:35:49.388Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T10:41:11.047Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:18:07.078Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:47:35.590Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:50:21.128Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:51:09.411Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T11:56:31.243Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\cart.service.js:212:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-16T12:33:32.554Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\cart.service.js:212:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-16T12:35:46.753Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\cart.service.js:212:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-16T12:41:23.749Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/wishlist 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-16T18:08:20.924Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:26:00.428Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:26.804Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:27.390Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:28.335Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:29.345Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:30.039Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:37.718Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:38.540Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:49:55.570Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T11:55:45.413Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:178:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T12:42:44.604Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:178:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T12:44:45.081Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:178:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T12:44:58.698Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:178:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T12:45:18.872Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:178:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T12:58:24.644Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '62022818dfaccf0cb4ccc3d1', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/62022818dfaccf0cb4ccc3d1 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T13:02:07.398Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:10:12.628Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:31:27.426Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:31:28.697Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:31:29.154Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:31:30.039Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:31:33.051Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:32:17.585Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:50:33.501Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T14:03:23.431Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T14:06:56.606Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T14:08:23.141Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T17:07:22.013Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T17:09:02.891Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T17:09:03.387Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T17:12:14.626Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T17:12:14.809Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T18:43:26.286Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T18:43:45.336Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T18:46:36.467Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T18:53:40.499Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T18:54:16.787Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T18:55:39.562Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T18:59:16.434Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T18:59:56.218Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T19:00:59.489Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T19:01:11.874Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T19:01:27.479Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:171:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:201:18)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:68:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-18T02:25:11.755Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:171:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:201:18)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:68:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-18T03:43:25.441Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '62022818dfaccf0cb4ccc3d1', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/62022818dfaccf0cb4ccc3d1 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T06:34:08.715Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:171:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:201:18)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:68:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T06:43:03.632Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:172:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:202:18)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:68:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T06:44:09.805Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:173:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:203:18)
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:68:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T06:49:56.581Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/61fb5932ff3240435ceb506c 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T07:14:11.491Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/61fb5932ff3240435ceb506c 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T11:25:54.397Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/61fb5932ff3240435ceb506c 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-18T11:29:50.317Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/wishlist/wishlist/61fb5932ff3240435ceb506c 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-20T15:39:07.848Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/wishlist/wishlist/61fb5932ff3240435ceb506c 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-20T15:40:01.710Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/621262f3077fd92a84380ff6 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-20T16:05:57.255Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/621262f3077fd92a84380ff6 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-20T16:06:56.085Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/621262f3077fd92a84380ff6 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-20T16:37:15.987Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/621262f3077fd92a84380ff6 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-20T16:38:14.554Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/cart/62022818dfaccf0cb4ccc3d1 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T02:28:24.352Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T03:25:55.559Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/cart/getcartbooks 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T03:26:21.775Z"}

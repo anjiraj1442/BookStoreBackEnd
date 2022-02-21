@@ -1,0 +1,407 @@
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-17T02:23:13.521Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T02:23:22.386Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:26:00.428Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:26.804Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:27.390Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:28.335Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:29.345Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:30.039Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:37.718Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:31:38.540Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T04:49:55.570Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T11:55:45.413Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-17T12:42:33.881Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T12:42:43.020Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:178:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T12:42:44.604Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:178:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T12:44:45.081Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:178:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T12:44:58.698Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:178:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T12:45:18.872Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userId is not defined
+    at _callee2$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:178:25)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T12:58:24.644Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-17T12:58:47.719Z"}
+info: Connected to the database. {"timestamp":"2022-02-17T12:58:56.372Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '62022818dfaccf0cb4ccc3d1', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/62022818dfaccf0cb4ccc3d1 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T13:02:07.398Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:10:12.628Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:31:27.426Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:31:28.697Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:31:29.154Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:31:30.039Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:31:33.051Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:32:17.585Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T13:50:33.501Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T14:03:23.431Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T14:06:56.606Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\BookStore\BookStoreBackEnd\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:50:45)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\BookStore\BookStoreBackEnd\build\middlewares\auth.middleware.js:74:17)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\BookStore\BookStoreBackEnd\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/wishlist/wishlist 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-17T14:08:23.141Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T17:07:22.013Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T17:09:02.891Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T17:09:03.387Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T17:12:14.626Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-17T17:12:14.809Z"}
