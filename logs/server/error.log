@@ -7799,3 +7799,69 @@ error:
     method - GET 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-21T03:26:21.775Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T06:23:56.472Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T06:26:59.225Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T06:27:03.209Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T06:27:38.884Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T06:32:32.183Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/wishlist/wishlist/[object%20Object] 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-21T06:32:39.741Z"}
