@@ -9,6 +9,8 @@ exports.removeWishlist = exports.newBook = exports.getWishlist = void 0;
 
 var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
+
 var _asyncToGenerator2 = _interopRequireDefault(require("@babel/runtime/helpers/asyncToGenerator"));
 
 var _wishlist = _interopRequireDefault(require("../models/wishlist.model"));
@@ -18,7 +20,8 @@ var _book = _interopRequireDefault(require("../models/book.model"));
 // add to wishlist
 var newBook = /*#__PURE__*/function () {
   var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(req) {
-    var response, checkBook, checkWishlist, wishlist, data, checkBookInWishlist, newWish;
+    var response, checkBook, checkWishlist, _ref2, wishlist, data, checkBookInWishlist, newWish;
+
     return _regenerator["default"].wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
@@ -48,7 +51,7 @@ var newBook = /*#__PURE__*/function () {
 
             _context.next = 10;
             return _wishlist["default"].findOne({
-              userId: req.body.data.id
+              userId: req.body.data.userId
             });
 
           case 10:
@@ -61,10 +64,13 @@ var newBook = /*#__PURE__*/function () {
             }
 
             wishlist = new _wishlist["default"]({
-              userId: req.body.data.id,
-              book: [{
-                bookId: req.params.bookId
-              }]
+              userId: req.body.data.userId,
+              book: [(_ref2 = {
+                bookId: req.params.bookId,
+                quantity: checkBook.quantity,
+                bookName: checkBook.bookName,
+                author: checkBook.author
+              }, (0, _defineProperty2["default"])(_ref2, "quantity", checkBook.quantity), (0, _defineProperty2["default"])(_ref2, "price", checkBook.price), (0, _defineProperty2["default"])(_ref2, "discountPrice", checkBook.discountPrice), _ref2)]
             });
             console.log(wishlist, 'new wishlist');
             _context.next = 17;
@@ -95,7 +101,10 @@ var newBook = /*#__PURE__*/function () {
 
             console.log('inside add book to existing wishlist');
             newWish = {
-              bookId: req.params.bookId
+              bookId: req.params.bookId,
+              bookName: checkBook.bookName,
+              author: checkBook.author,
+              price: checkBook.price
             };
             console.log(newWish);
             checkWishlist.book.push(newWish);
@@ -146,8 +155,8 @@ var newBook = /*#__PURE__*/function () {
 exports.newBook = newBook;
 
 var getWishlist = /*#__PURE__*/function () {
-  var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(req) {
-    var response, checkWishlist;
+  var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(req) {
+    var response, checkWishlist, data;
     return _regenerator["default"].wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
@@ -160,7 +169,7 @@ var getWishlist = /*#__PURE__*/function () {
             };
             _context2.next = 3;
             return _wishlist["default"].find({
-              userId: req.body.data.id
+              userId: req.body.data.userId
             });
 
           case 3:
@@ -168,23 +177,30 @@ var getWishlist = /*#__PURE__*/function () {
             console.log(checkWishlist, 'wisharr');
 
             if (!checkWishlist) {
-              _context2.next = 13;
+              _context2.next = 16;
               break;
             }
 
+            _context2.next = 8;
+            return _wishlist["default"].findOne({
+              userId: req.body.data.userId
+            });
+
+          case 8:
+            data = _context2.sent;
             response.status = 200;
             response.success = true;
             response.message = 'Wishlist Books Fetched ';
             response.data = checkWishlist;
             return _context2.abrupt("return", response);
 
-          case 13:
+          case 16:
             response.status = 200;
             response.success = true;
             response.message = 'No Active Wishlist Found';
             return _context2.abrupt("return", response);
 
-          case 17:
+          case 20:
           case "end":
             return _context2.stop();
         }
@@ -193,7 +209,7 @@ var getWishlist = /*#__PURE__*/function () {
   }));
 
   return function getWishlist(_x2) {
-    return _ref2.apply(this, arguments);
+    return _ref3.apply(this, arguments);
   };
 }(); //remove wishlist
 
@@ -201,7 +217,7 @@ var getWishlist = /*#__PURE__*/function () {
 exports.getWishlist = getWishlist;
 
 var removeWishlist = /*#__PURE__*/function () {
-  var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee3(req) {
+  var _ref4 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee3(req) {
     var response, checkWishlist, checkBookInWishlist;
     return _regenerator["default"].wrap(function _callee3$(_context3) {
       while (1) {
@@ -217,7 +233,7 @@ var removeWishlist = /*#__PURE__*/function () {
             console.log(req.params.bookId, 'bookId');
             _context3.next = 5;
             return _wishlist["default"].findOne({
-              userId: req.data.id
+              userId: req.data.userId
             });
 
           case 5:
@@ -246,7 +262,7 @@ var removeWishlist = /*#__PURE__*/function () {
             console.log('inside removing book from wishlist');
             _context3.next = 16;
             return _wishlist["default"].updateOne({
-              userId: req.body.data.id
+              userId: req.body.data.userId
             }, {
               $pull: {
                 book: {
@@ -289,7 +305,7 @@ var removeWishlist = /*#__PURE__*/function () {
   }));
 
   return function removeWishlist(_x3) {
-    return _ref3.apply(this, arguments);
+    return _ref4.apply(this, arguments);
   };
 }();
 

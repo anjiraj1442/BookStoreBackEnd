@@ -9,9 +9,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
+
 var _mongoose = _interopRequireWildcard(require("mongoose"));
 
 var _book = _interopRequireDefault(require("../models/book.model"));
+
+var _ref;
 
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 
@@ -21,15 +25,28 @@ var wishListSchema = new _mongoose.Schema({
   userId: {
     type: String
   },
-  book: [{
+  book: [(_ref = {
     bookId: {
-      type: _mongoose["default"].Schema.Types.ObjectId,
-      ref: "Books"
+      type: String
     },
-    price: {
+    quantity: {
       type: Number
+    },
+    bookName: {
+      type: String,
+      required: true
+    },
+    author: {
+      type: String,
+      required: true
     }
-  }]
+  }, (0, _defineProperty2["default"])(_ref, "quantity", {
+    type: Number
+  }), (0, _defineProperty2["default"])(_ref, "price", {
+    type: Number
+  }), (0, _defineProperty2["default"])(_ref, "discountPrice", {
+    type: Number
+  }), _ref)]
 });
 
 var _default = (0, _mongoose.model)('Wishlist', wishListSchema);

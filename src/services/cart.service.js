@@ -23,20 +23,30 @@ export const addCart = async (req) => {
   /* 1.check for book availibilty */
   let checkBook = await Book.findOne({ _id: req.params.bookId });
 
-  console.log(checkBook, 'availability');
+  console.log('availability----->', checkBook);
 
   if (checkBook) {
     /* 2.check if cart for user is present else create */
     console.log('userid', req.body);
-    let checkCart = await Cart.findOne({ userId: req.body.data.id }); //
+    let checkCart = await Cart.findOne({ userId: req.body.data.userId }); //
 
     console.log(checkCart, 'checkcart is present or not');
 
     if (!checkCart) {
       //creating new cart
       let newCart = new Cart({
-        userId: req.body.data.id,
-        book: [{ bookId: req.params.bookId, quantity: defaultQuantity }],
+        userId: req.body.data.userid,
+        book: [
+          {
+            bookId: req.params.bookId,
+            quantity: defaultQuantity,
+            bookName: checkBook.bookName,
+            author: checkBook.author,
+            quantity: checkBook.quantity,
+            price: checkBook.price,
+            discountPrice: checkBook.discountPrice
+          }
+        ],
         isPurchased: false
       }); // here i hv to pass name author values okk in check once model its correct or not
 
@@ -67,7 +77,7 @@ export const addCart = async (req) => {
         if (Total_Quantity < 0) {
           // remove the existing book
           await Cart.updateOne(
-            { userId: req.body.data.id },
+            { userId: req.body.data.userId },
             {
               $pull: {
                 book: {
@@ -81,12 +91,19 @@ export const addCart = async (req) => {
         // insert the new book in cart
         const updatedBook = {
           bookId: req.params.bookId,
-          quantity: Total_Quantity
+          quantity: Total_Quantity,
+          bookId: req.params.bookId,
+          quantity: defaultQuantity,
+          bookName: checkBook.bookName,
+          author: checkBook.author,
+          quantity: checkBook.quantity,
+          price: checkBook.price,
+          discountPrice: checkBook.discountPrice
         };
 
         const updated = await Cart.findOneAndUpdate(
           {
-            userId: req.body.data.id
+            userId: req.body.data.userId
           },
           {
             $addToSet: {
@@ -106,7 +123,14 @@ export const addCart = async (req) => {
 
         const newBook = {
           bookId: req.params.bookId,
-          quantity: defaultQuantity
+          quantity: defaultQuantity,
+          bookId: req.params.bookId,
+          quantity: defaultQuantity,
+          bookName: checkBook.bookName,
+          author: checkBook.author,
+          quantity: checkBook.quantity,
+          price: checkBook.price,
+          discountPrice: checkBook.discountPrice
         };
 
         console.log(newBook, 'new bok');
@@ -141,9 +165,9 @@ export const getCart = async (req) => {
     message: '',
     data: ''
   };
-
-  let checkCart = await Cart.findOne({ userId: req.body.data.id });
-
+  console.log(req.body.data.userId);
+  let checkCart = await Cart.findOne({ userId: req.body.data.userId });
+  console.log('checkcart', checkCart);
   console.log(checkCart, 'checkcart is present or not');
   if (checkCart) {
     response.status = 200;
@@ -169,101 +193,98 @@ export const updateCart = async (req) => {
     data: ''
   };
 
-  let defaultQuantity = 1;
-  defaultQuantity = req.body.quantity;
-  //checkking the book is available
-  let checkBook = await Book.findOne({ _id: req.params.bookId });
+ 
+  let defaultQuantity = req.body.quantity;
+  //checkking the cart user is available
+  let checkCart = await Book.findOne({ userId: req.body.data.userId }); // userid
 
-  if (checkBook) {
-    // checking the book is in cart or not
-    let checkCart = await Cart.findOne({ userId: req.body.data.id });
-    if (checkCart) {
-      //creating new cart
-      let newCart = new Cart({
-        userId: req.body.data.id,
-        book: [{ bookId: req.params.bookId, quantity: defaultQuantity }],
-        isPurchased: false
-      });
+  if (!checkCart) {
+    // cart not present
+    let newCart = new Cart({
+      userId: req.body.data.userId,
+      book: [{ bookId: req.params.bookId, quantity: defaultQuantity }],
+      isParchased: false
+    });
 
-      const data = await newCart.save();
-      response.status = 201;
-      response.success = true;
-      response.message = 'Book Added to with new Cart';
-      response.data = data;
-      return response;
-    }else{
-      const getArrayBook = await checkCart.book.filter(
-        (x) => x.bookId === req.params.bookId
-      );
-      if(getArrayBook.length != 0){
-        if(defaultQuantity<=0){
-          await Cart.updateOne(
-            { userId: req.body.data.userId },
-            {
-              $pull: {
-                book: {
-                  bookId: req.params.bookId
-                }
+    const data = await newCart.save();
+
+    response.status = 201;
+    response.success = true;
+    response.message = 'Book Added to with new Cart';
+    response.data = data;
+    return response;
+  } else {
+    // cart present
+
+    const getArrayBook = await checkCart.book.filter(
+      (x) => x.bookId === req.params.bookId
+    );
+
+    if (getArrayBook.length != 0) {
+      if (defaultQuantity < 0) {
+        await Cart.updateOne(
+          { userId: req.body.data.userId },
+          {
+            $pull: {
+              book: {
+                bookId: req.params.bookId
               }
             }
-          );
-        }else{
-           // remove the exsisting book in cart
-           await Cart.updateOne(
-            { userId: req.body.data.userId },
-            {
-              $pull: {
-                book: {
-                  bookId: req.params.bookId
-                }
+          }
+        );
+      } else {
+        // remove the existing cbook in cart
+        await Cart.updateOne(
+          { userId: req.body.data.userId },
+          {
+            $pull: {
+              book: {
+                bookId: req.params.bookId
               }
             }
-          );
-           // insert the new book in cart
-           const updatedBook = {
-            bookId: req.params.bookId,
-            quantity: defaultQuantity
-          };
-          const updated = await Cart.findOneAndUpdate(
-            {
-              userId: req.body.data.userId
-            },
-            {
-              $addToSet: {
-                book: updatedBook
-              }
-            }
-          );
-        }
-        response.status = 200;
-        response.success = false;
-        response.message = 'Cart Updated ';
-        return response;
+          }
+        );
 
-      }else{
-         /* 4.cart doesnt contain book just pash book to book array & save*/
-
-         const newBook = {
+        //insert the new book in cart
+        const updatedBook = {
           bookId: req.params.bookId,
-          quantity: defaultQuantity
+          quantity: defaultQuantity,
+          bookName: checkBook.bookName,
+          author: checkBook.author,
+          quantity: checkBook.quantity,
+          price: checkBook.price,
+          discountPrice: checkBook.discountPrice
         };
 
-        checkCart.book.push(newBook);
-
-        await checkCart.save();
-
-        response.status = 200;
-        response.success = false;
-        response.message = 'Book Added To Cart';
-        response.data = ' ';
-        return response;
+        const updated = await Cart.findOneAndUpdate(
+          { userId: req.body.data.userId },
+          {
+            $addToSet: {
+              book: updatedBook
+            }
+          }
+        );
       }
+      response.status = 200;
+      response.success = false;
+      response.message = 'Cart Updated ';
+      return response;
+    } else {
+      // cart doesnt contain book
+      const newBook = {
+        bookId: req.params.bookId,
+        quantity: defaultQuantity
+      };
+
+      checkCart.book.push(newBook);
+
+      await checkCart.save();
+
+      response.status = 200;
+      response.success = false;
+      response.message = 'Book Added To Cart';
+      response.data = ' ';
+      return response;
     }
-  }else{
-    response.status = 404;
-    response.success = false;
-    response.message = 'Book Not Available';
-    response.data = ' ';
-    return response;
   }
 };

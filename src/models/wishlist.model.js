@@ -9,12 +9,30 @@ const wishListSchema = new Schema({
   book: [
     {
       bookId: {
-        type : mongoose.Schema.Types.ObjectId,
-        ref:"Books"
+        type: String
+      },
+
+      quantity: {
+        type: Number
+      },
+      bookName: {
+        type: String,
+        required: true
+      },
+      author: {
+        type: String,
+        required: true
+      },
+      
+      quantity: {
+        type: Number
       },
       price: {
         type: Number
-      }
+      },
+      discountPrice: {
+        type: Number
+      },
     }
   ]
 });

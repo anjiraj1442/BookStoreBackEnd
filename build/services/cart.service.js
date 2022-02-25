@@ -9,6 +9,8 @@ exports.updateCart = exports.getCart = exports.addCart = void 0;
 
 var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 
+var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
+
 var _asyncToGenerator2 = _interopRequireDefault(require("@babel/runtime/helpers/asyncToGenerator"));
 
 var _cart = _interopRequireDefault(require("../models/cart.model"));
@@ -18,7 +20,8 @@ var _book = _interopRequireDefault(require("../models/book.model"));
 //add to cart
 var addCart = /*#__PURE__*/function () {
   var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(req) {
-    var response, defaultQuantity, checkBook, checkCart, newCart, data, getArrayBook, Total_Quantity, updatedBook, updated, newBook;
+    var response, defaultQuantity, checkBook, checkCart, _ref2, newCart, data, getArrayBook, _updatedBook, Total_Quantity, updatedBook, updated, _newBook, newBook;
+
     return _regenerator["default"].wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
@@ -49,7 +52,7 @@ var addCart = /*#__PURE__*/function () {
 
           case 5:
             checkBook = _context.sent;
-            console.log(checkBook, 'availability');
+            console.log('availability----->', checkBook);
 
             if (!checkBook) {
               _context.next = 60;
@@ -60,7 +63,7 @@ var addCart = /*#__PURE__*/function () {
             console.log('userid', req.body);
             _context.next = 11;
             return _cart["default"].findOne({
-              userId: req.body.data.id
+              userId: req.body.data.userId
             });
 
           case 11:
@@ -75,11 +78,13 @@ var addCart = /*#__PURE__*/function () {
 
             //creating new cart
             newCart = new _cart["default"]({
-              userId: req.body.data.id,
-              book: [{
+              userId: req.body.data.userid,
+              book: [(_ref2 = {
                 bookId: req.params.bookId,
-                quantity: defaultQuantity
-              }],
+                quantity: defaultQuantity,
+                bookName: checkBook.bookName,
+                author: checkBook.author
+              }, (0, _defineProperty2["default"])(_ref2, "quantity", checkBook.quantity), (0, _defineProperty2["default"])(_ref2, "price", checkBook.price), (0, _defineProperty2["default"])(_ref2, "discountPrice", checkBook.discountPrice), _ref2)],
               isPurchased: false
             }); // here i hv to pass name author values okk in check once model its correct or not
 
@@ -119,7 +124,7 @@ var addCart = /*#__PURE__*/function () {
 
             _context.next = 35;
             return _cart["default"].updateOne({
-              userId: req.body.data.id
+              userId: req.body.data.userId
             }, {
               $pull: {
                 book: {
@@ -130,13 +135,13 @@ var addCart = /*#__PURE__*/function () {
 
           case 35:
             // insert the new book in cart
-            updatedBook = {
+            updatedBook = (_updatedBook = {
               bookId: req.params.bookId,
               quantity: Total_Quantity
-            };
+            }, (0, _defineProperty2["default"])(_updatedBook, "bookId", req.params.bookId), (0, _defineProperty2["default"])(_updatedBook, "quantity", defaultQuantity), (0, _defineProperty2["default"])(_updatedBook, "bookName", checkBook.bookName), (0, _defineProperty2["default"])(_updatedBook, "author", checkBook.author), (0, _defineProperty2["default"])(_updatedBook, "quantity", checkBook.quantity), (0, _defineProperty2["default"])(_updatedBook, "price", checkBook.price), (0, _defineProperty2["default"])(_updatedBook, "discountPrice", checkBook.discountPrice), _updatedBook);
             _context.next = 38;
             return _cart["default"].findOneAndUpdate({
-              userId: req.body.data.id
+              userId: req.body.data.userId
             }, {
               $addToSet: {
                 book: updatedBook
@@ -154,10 +159,10 @@ var addCart = /*#__PURE__*/function () {
           case 46:
             /* 4.cart doesnt contain book just pass book to book array & save*/
             console.log('else');
-            newBook = {
+            newBook = (_newBook = {
               bookId: req.params.bookId,
               quantity: defaultQuantity
-            };
+            }, (0, _defineProperty2["default"])(_newBook, "bookId", req.params.bookId), (0, _defineProperty2["default"])(_newBook, "quantity", defaultQuantity), (0, _defineProperty2["default"])(_newBook, "bookName", checkBook.bookName), (0, _defineProperty2["default"])(_newBook, "author", checkBook.author), (0, _defineProperty2["default"])(_newBook, "quantity", checkBook.quantity), (0, _defineProperty2["default"])(_newBook, "price", checkBook.price), (0, _defineProperty2["default"])(_newBook, "discountPrice", checkBook.discountPrice), _newBook);
             console.log(newBook, 'new bok');
             checkCart.book.push(newBook);
             console.log(checkCart, 'push result');
@@ -199,7 +204,7 @@ var addCart = /*#__PURE__*/function () {
 exports.addCart = addCart;
 
 var getCart = /*#__PURE__*/function () {
-  var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(req) {
+  var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(req) {
     var response, checkCart;
     return _regenerator["default"].wrap(function _callee2$(_context2) {
       while (1) {
@@ -211,17 +216,19 @@ var getCart = /*#__PURE__*/function () {
               message: '',
               data: ''
             };
-            _context2.next = 3;
+            console.log(req.body.data.userId);
+            _context2.next = 4;
             return _cart["default"].findOne({
-              userId: req.body.data.id
+              userId: req.body.data.userId
             });
 
-          case 3:
+          case 4:
             checkCart = _context2.sent;
+            console.log('checkcart', checkCart);
             console.log(checkCart, 'checkcart is present or not');
 
             if (!checkCart) {
-              _context2.next = 13;
+              _context2.next = 15;
               break;
             }
 
@@ -231,14 +238,14 @@ var getCart = /*#__PURE__*/function () {
             response.data = checkCart;
             return _context2.abrupt("return", response);
 
-          case 13:
+          case 15:
             response.status = 200;
             response.success = true;
             response.message = 'No Active Cart';
             response.data = ' ';
             return _context2.abrupt("return", response);
 
-          case 18:
+          case 20:
           case "end":
             return _context2.stop();
         }
@@ -247,7 +254,7 @@ var getCart = /*#__PURE__*/function () {
   }));
 
   return function getCart(_x2) {
-    return _ref2.apply(this, arguments);
+    return _ref3.apply(this, arguments);
   };
 }(); //update book
 
@@ -255,8 +262,9 @@ var getCart = /*#__PURE__*/function () {
 exports.getCart = getCart;
 
 var updateCart = /*#__PURE__*/function () {
-  var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee3(req) {
-    var response, defaultQuantity, checkBook, checkCart, newCart, data, getArrayBook, updatedBook, updated, newBook;
+  var _ref4 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee3(req) {
+    var response, defaultQuantity, checkCart, newCart, data, getArrayBook, _updatedBook2, updatedBook, updated, newBook;
+
     return _regenerator["default"].wrap(function _callee3$(_context3) {
       while (1) {
         switch (_context3.prev = _context3.next) {
@@ -267,48 +275,34 @@ var updateCart = /*#__PURE__*/function () {
               message: '',
               data: ''
             };
-            defaultQuantity = 1;
-            defaultQuantity = req.body.quantity; //checkking the book is available
+            defaultQuantity = req.body.quantity; //checkking the cart user is available
 
-            _context3.next = 5;
+            _context3.next = 4;
             return _book["default"].findOne({
-              _id: req.params.bookId
+              userId: req.body.data.userId
             });
 
-          case 5:
-            checkBook = _context3.sent;
-
-            if (!checkBook) {
-              _context3.next = 54;
-              break;
-            }
-
-            _context3.next = 9;
-            return _cart["default"].findOne({
-              userId: req.body.data.id
-            });
-
-          case 9:
+          case 4:
             checkCart = _context3.sent;
 
-            if (!checkCart) {
-              _context3.next = 22;
+            if (checkCart) {
+              _context3.next = 17;
               break;
             }
 
-            //creating new cart
+            // cart not present
             newCart = new _cart["default"]({
-              userId: req.body.data.id,
+              userId: req.body.data.userId,
               book: [{
                 bookId: req.params.bookId,
                 quantity: defaultQuantity
               }],
-              isPurchased: false
+              isParchased: false
             });
-            _context3.next = 14;
+            _context3.next = 9;
             return newCart.save();
 
-          case 14:
+          case 9:
             data = _context3.sent;
             response.status = 201;
             response.success = true;
@@ -316,26 +310,26 @@ var updateCart = /*#__PURE__*/function () {
             response.data = data;
             return _context3.abrupt("return", response);
 
-          case 22:
-            _context3.next = 24;
+          case 17:
+            _context3.next = 19;
             return checkCart.book.filter(function (x) {
               return x.bookId === req.params.bookId;
             });
 
-          case 24:
+          case 19:
             getArrayBook = _context3.sent;
 
             if (!(getArrayBook.length != 0)) {
-              _context3.next = 43;
+              _context3.next = 38;
               break;
             }
 
-            if (!(defaultQuantity <= 0)) {
-              _context3.next = 31;
+            if (!(defaultQuantity < 0)) {
+              _context3.next = 26;
               break;
             }
 
-            _context3.next = 29;
+            _context3.next = 24;
             return _cart["default"].updateOne({
               userId: req.body.data.userId
             }, {
@@ -346,12 +340,12 @@ var updateCart = /*#__PURE__*/function () {
               }
             });
 
-          case 29:
-            _context3.next = 37;
+          case 24:
+            _context3.next = 32;
             break;
 
-          case 31:
-            _context3.next = 33;
+          case 26:
+            _context3.next = 28;
             return _cart["default"].updateOne({
               userId: req.body.data.userId
             }, {
@@ -362,13 +356,15 @@ var updateCart = /*#__PURE__*/function () {
               }
             });
 
-          case 33:
-            // insert the new book in cart
-            updatedBook = {
+          case 28:
+            //insert the new book in cart
+            updatedBook = (_updatedBook2 = {
               bookId: req.params.bookId,
-              quantity: defaultQuantity
-            };
-            _context3.next = 36;
+              quantity: defaultQuantity,
+              bookName: checkBook.bookName,
+              author: checkBook.author
+            }, (0, _defineProperty2["default"])(_updatedBook2, "quantity", checkBook.quantity), (0, _defineProperty2["default"])(_updatedBook2, "price", checkBook.price), (0, _defineProperty2["default"])(_updatedBook2, "discountPrice", checkBook.discountPrice), _updatedBook2);
+            _context3.next = 31;
             return _cart["default"].findOneAndUpdate({
               userId: req.body.data.userId
             }, {
@@ -377,44 +373,33 @@ var updateCart = /*#__PURE__*/function () {
               }
             });
 
-          case 36:
+          case 31:
             updated = _context3.sent;
 
-          case 37:
+          case 32:
             response.status = 200;
             response.success = false;
             response.message = 'Cart Updated ';
             return _context3.abrupt("return", response);
 
-          case 43:
-            /* 4.cart doesnt contain book just pash book to book array & save*/
+          case 38:
+            // cart doesnt contain book
             newBook = {
               bookId: req.params.bookId,
               quantity: defaultQuantity
             };
             checkCart.book.push(newBook);
-            _context3.next = 47;
+            _context3.next = 42;
             return checkCart.save();
 
-          case 47:
+          case 42:
             response.status = 200;
             response.success = false;
             response.message = 'Book Added To Cart';
             response.data = ' ';
             return _context3.abrupt("return", response);
 
-          case 52:
-            _context3.next = 59;
-            break;
-
-          case 54:
-            response.status = 404;
-            response.success = false;
-            response.message = 'Book Not Available';
-            response.data = ' ';
-            return _context3.abrupt("return", response);
-
-          case 59:
+          case 47:
           case "end":
             return _context3.stop();
         }
@@ -423,7 +408,7 @@ var updateCart = /*#__PURE__*/function () {
   }));
 
   return function updateCart(_x3) {
-    return _ref3.apply(this, arguments);
+    return _ref4.apply(this, arguments);
   };
 }();
 

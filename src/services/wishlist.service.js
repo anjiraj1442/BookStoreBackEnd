@@ -20,7 +20,7 @@ export const newBook = async (req) => {
 
   if (checkBook) {
     let checkWishlist = await Wishlist.findOne({
-      userId: req.body.data.id
+      userId: req.body.data.userId
     });
 
     console.log(checkWishlist, 'checkWishlist');
@@ -28,8 +28,18 @@ export const newBook = async (req) => {
     //check if Wishlist for user is present
     if (!checkWishlist) {
       let wishlist = new Wishlist({
-        userId: req.body.data.id,
-        book: [{ bookId: req.params.bookId }]
+        userId: req.body.data.userId,
+        book: [
+          {
+            bookId: req.params.bookId,
+            quantity: checkBook.quantity,
+            bookName: checkBook.bookName,
+            author: checkBook.author,
+            quantity: checkBook.quantity,
+            price: checkBook.price,
+            discountPrice: checkBook.discountPrice
+          }
+        ]
       });
 
       console.log(wishlist, 'new wishlist');
@@ -57,7 +67,10 @@ export const newBook = async (req) => {
         console.log('inside add book to existing wishlist');
 
         const newWish = {
-          bookId: req.params.bookId
+          bookId: req.params.bookId,
+          bookName: checkBook.bookName,
+          author: checkBook.author,
+          price: checkBook.price
         };
 
         console.log(newWish);
@@ -100,9 +113,10 @@ export const getWishlist = async (req) => {
     data: ''
   };
 
-  let checkWishlist = await Wishlist.find({ userId: req.body.data.id });
+  let checkWishlist = await Wishlist.find({ userId: req.body.data.userId });
   console.log(checkWishlist, 'wisharr');
   if (checkWishlist) {
+    const data = await Wishlist.findOne({ userId: req.body.data.userId });
     response.status = 200;
     response.success = true;
     response.message = 'Wishlist Books Fetched ';
@@ -129,7 +143,7 @@ export const removeWishlist = async (req) => {
   console.log(req.params.bookId, 'bookId');
 
   let checkWishlist = await Wishlist.findOne({
-    userId: req.data.id
+    userId: req.data.userId
   });
 
   console.log(checkWishlist, 'checking Wishlist present or absent');
@@ -146,7 +160,7 @@ export const removeWishlist = async (req) => {
       console.log('inside removing book from wishlist');
 
       await Wishlist.updateOne(
-        { userId: req.body.data.id },
+        { userId: req.body.data.userId },
         {
           $pull: {
             book: {

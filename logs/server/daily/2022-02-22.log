@@ -1,0 +1,973 @@
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-22T02:37:56.827Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T02:38:05.124Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '62022843dfaccf0cb4ccc3d5', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/62022843dfaccf0cb4ccc3d5 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:04:42.220Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-22T03:05:16.922Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:05:27.797Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '6201fbb5e393522cac4ee2bf', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/6201fbb5e393522cac4ee2bf 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:08:35.235Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '62022818dfaccf0cb4ccc3d1', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/62022818dfaccf0cb4ccc3d1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:08:38.842Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '62022818dfaccf0cb4ccc3d1', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/62022818dfaccf0cb4ccc3d1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:08:40.227Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '62022843dfaccf0cb4ccc3d5', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/62022843dfaccf0cb4ccc3d5 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:08:41.508Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '62022818dfaccf0cb4ccc3d1', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/62022818dfaccf0cb4ccc3d1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:13:00.793Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to embedded failed for value "{ bookId: '620cad7d6d5e49276cc66b40', quantity: NaN }" (type string) at path "book"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/cart/620cad7d6d5e49276cc66b40 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T03:17:27.949Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "6213c3d859a7de43a88fb88" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/6213c3d859a7de43a88fb88 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T06:03:17.224Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addressType" is required 
+    url - /api/v1/customer/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T10:23:19.319Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addressType" is required 
+    url - /api/v1/customer/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T10:38:14.574Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addressType" is required 
+    url - /api/v1/customer/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T10:41:46.902Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addressType" is required 
+    url - /api/v1/customer/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T10:42:15.287Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addressType" is required 
+    url - /api/v1/customer/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T10:45:29.859Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addressType" is required 
+    url - /api/v1/customer/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T10:46:13.195Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:31.530Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:31.997Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:32.343Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:33.738Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:34.193Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:36.196Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:36.414Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:38.103Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:38.339Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:40.593Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:40.970Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:42.987Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:46.521Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:48.596Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "data => {      props.getCart();    }" (type string) at path "_id" for model "Books"
+    at model.Query.exec (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:12:50.596Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addressType" is required 
+    url - /api/v1/customer/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:15:46.128Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:22:44.656Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:24:00.158Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:24:01.001Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:24:01.909Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:24:02.551Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-22T11:24:28.896Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:24:36.510Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T11:24:37.200Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:24:38.844Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:24:39.524Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:24:39.802Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:24:40.133Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:24:40.310Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:24:40.703Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:24:41.213Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'filter')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\cart.service.js:310:35)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/data%20=%3E%20%7B%20%20%20%20%20%20props.getCart();%20%20%20%20%7D 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-22T11:26:09.963Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.description: Path `description` is required., book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required., book.1.description: Path `description` is required., book.1.author: Path `author` is required., book.1.bookName: Path `bookName` is required., book.2.description: Path `description` is required., book.2.author: Path `author` is required., book.2.bookName: Path `bookName` is required., book.3.description: Path `description` is required., book.3.author: Path `author` is required., book.3.bookName: Path `bookName` is required., book.4.description: Path `description` is required., book.4.author: Path `author` is required., book.4.bookName: Path `bookName` is required., book.5.description: Path `description` is required., book.5.author: Path `author` is required., book.5.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/6202554edfaccf0cb4ccc3d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:50:44.164Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.description: Path `description` is required., book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required., book.1.description: Path `description` is required., book.1.author: Path `author` is required., book.1.bookName: Path `bookName` is required., book.2.description: Path `description` is required., book.2.author: Path `author` is required., book.2.bookName: Path `bookName` is required., book.3.description: Path `description` is required., book.3.author: Path `author` is required., book.3.bookName: Path `bookName` is required., book.4.description: Path `description` is required., book.4.author: Path `author` is required., book.4.bookName: Path `bookName` is required., book.5.description: Path `description` is required., book.5.author: Path `author` is required., book.5.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/6202554edfaccf0cb4ccc3d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T11:57:46.615Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.description: Path `description` is required., book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/6202554edfaccf0cb4ccc3d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T12:00:24.343Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.description: Path `description` is required., book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/6202554edfaccf0cb4ccc3d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T12:01:50.189Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.description: Path `description` is required., book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/6202554edfaccf0cb4ccc3d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T12:03:11.827Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.description: Path `description` is required., book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/6202554edfaccf0cb4ccc3d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T12:06:13.351Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.description: Path `description` is required., book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/6202554edfaccf0cb4ccc3d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T12:06:39.231Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.description: Path `description` is required., book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/6202554edfaccf0cb4ccc3d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T12:10:12.977Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-22T12:11:57.950Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T12:12:06.268Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.description: Path `description` is required., book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/6202554edfaccf0cb4ccc3d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T12:12:10.084Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'filter')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\cart.service.js:310:35)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/cart/updatecart/6213c3d859a7de43a88fb887 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T12:16:54.366Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.description: Path `description` is required., book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/6202554edfaccf0cb4ccc3d9 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T12:43:58.849Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-22T16:34:11.639Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T16:34:20.470Z"}
+error: 
+    status - 500 
+    message - ValidationError: Cart validation failed: book.0.description: Path `description` is required., book.0.author: Path `author` is required., book.0.bookName: Path `bookName` is required.
+    at model.Document.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2782:32)
+    at EmbeddedDocument.invalidate (C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\types\embedded.js:298:29)
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\document.js:2574:17
+    at C:\BookStore\BookStoreBackEnd\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/cart/cart/62034da2aa641a552c4e0368 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T16:49:04.264Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2022-02-22T16:50:11.038Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T16:50:20.353Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addressType" is required 
+    url - /api/v1/customer/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T16:50:42.406Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addressType" is required 
+    url - /api/v1/customer/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T17:12:16.405Z"}
+error: 
+    status - 500 
+    message - ValidationError: "addressType" is required 
+    url - /api/v1/customer/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T17:50:05.357Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T18:26:03.762Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T18:26:22.892Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T18:26:48.526Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T18:26:49.479Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T18:26:50.380Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T18:26:51.212Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T18:29:46.257Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:220:32)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.removeWishlist (C:\BookStore\BookStoreBackEnd\build\services\wishlist.service.js:292:18)
+    at _callee3$ (C:\BookStore\BookStoreBackEnd\build\controllers\wishlist.controller.js:105:36)
+    at tryCatch (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\BookStore\BookStoreBackEnd\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\BookStore\BookStoreBackEnd\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/wishlist/remove/6213c40059a7de43a88fb88a 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T18:29:47.070Z"}
